@@ -64,9 +64,6 @@ def main():
     display_messages()
     st.text_input("Message", key="user_input", disabled=not is_openai_api_key_set(), on_change=process_input)
 
-    st.divider()
-    st.markdown("Source code: [Github](https://github.com/Anil-matcha/Chat-Youtube)")
-
 
 if __name__ == "__main__":
     main()
